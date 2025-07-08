@@ -638,9 +638,9 @@ header .arrow_down {
         display: none;
     }
 
-    .header_w_s_menu>ul>li:hover>ul {
+    /* .header_w_s_menu>ul>li:hover>ul {
         display: block;
-    }
+    } */
 
     .header_w_s_menu>ul>li:hover>.menu_flex {
         background-color: #0f1923;
@@ -967,6 +967,11 @@ main {
     font-family: "Black Han Sans", sans-serif;
     font-size: 24px;
     color: #0F1923;
+    transition: 0.3s;
+}
+.sec2_arti_btn>a>h5:hover{
+    background-color: #FF1B39;
+    color: #fff;
 }
 
 .sec3_arti_wrap_2 {
@@ -1024,6 +1029,11 @@ main {
     font-family: "Black Han Sans", sans-serif;
     font-size: 24px;
     color: #0F1923;
+    transition: 0.3s;
+}
+.sec3_arti_btn>a>h5:hover{
+    background-color: #FF1B39;
+    color: #fff;
 }
 
 .sec3_arti_img {
@@ -1106,6 +1116,11 @@ main {
     text-align: center;
     font-family: "Black Han Sans", sans-serif;
     font-size: 24px;
+    color: #fff;
+    transition: 0.3s;
+}
+.sec4_arti_btn>a>h5:hover{
+    background-color: #FF1B39;
     color: #fff;
 }
 
@@ -1323,7 +1338,7 @@ p{
 
 @media screen and (max-width:623px){
     footer{
-        height: 670px;
+        height: 720px;
     }
 
     .text_info_btn{
@@ -1337,5 +1352,9 @@ p{
 
     .sns_btn a>img{
         width: 40px; height: 40px;
+    }
+
+    .game_notice_img{
+        flex-wrap: wrap;
     }
 }

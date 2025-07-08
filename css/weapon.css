@@ -654,9 +654,9 @@ header .arrow_down {
         display: none;
     }
 
-    .header_w_s_menu>ul>li:hover>ul {
+    /* .header_w_s_menu>ul>li:hover>ul {
         display: block;
-    }
+    } */
 
     .header_w_s_menu>ul>li:hover>.menu_flex {
         background-color: #0f1923;
@@ -1162,7 +1162,7 @@ p{
 
 @media screen and (max-width:623px){
     footer{
-        height: 670px;
+        height: 720px;
     }
 
     .text_info_btn{
@@ -1177,6 +1177,9 @@ p{
     .sns_btn a>img{
         width: 40px; height: 40px;
     }
-}
 
+    .game_notice_img{
+        flex-wrap: wrap;
+    }
+}
 

@@ -65,6 +65,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 0.5s;
+}
+
+.main_f_title>.title_play_btn>a:hover{
+  background-color: #ff2b3d;
 }
 
 
