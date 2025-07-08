@@ -55,3 +55,59 @@ esc.addEventListener("click", function(){
     box.style.display = "none";
 })
 
+let btn3 = document.getElementById("M_Game_info");
+let box3 = document.getElementById("M_Game_info_w");
+
+let b = 1;
+btn3.addEventListener("click", function(){
+    if(b){
+        box3.style.display = "block";
+        b--;
+    }else{
+        box3.style.display = "none";
+        b++;
+    }
+})
+
+let btn4 = document.getElementById("M_News");
+let box4 = document.getElementById("M_News_w");
+
+let b2 = 1;
+btn4.addEventListener("click", function(){
+    if(b2){
+        box4.style.display = "block";
+        b2--;
+    }else{
+        box4.style.display = "none";
+        b2++;
+    }
+})
+
+let btn5 = document.getElementById("M_Client");
+let box5 = document.getElementById("M_Client_w");
+
+let b3 = 1;
+btn5.addEventListener("click", function(){
+    if(b3){
+        box5.style.display = "block";
+        b3--;
+    }else{
+        box5.style.display = "none";
+        b3++;
+    }
+})
+
+let btn6 = document.getElementById("M_Social");
+let box6 = document.getElementById("M_Social_w");
+
+let b4 = 1;
+btn6.addEventListener("click", function(){
+    if(b4){
+        box6.style.display = "block";
+        b4--;
+    }else{
+        box6.style.display = "none";
+        b4++;
+    }
+})
+
